@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 
 
-
-
-
-
-<!-- =========================================================
-* Sneat - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
-==============================================================
-
-* Product Page: https://themeselection.com/products/sneat-bootstrap-html-admin-template/
-* Created by: ThemeSelection
-* License: You must have a valid license purchased in order to legally use the theme for your project.
-* Copyright ThemeSelection (https://themeselection.com)
-
-=========================================================
- -->
 <!-- beautify ignore:start -->
 <html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed " dir="ltr" data-theme="theme-semi-dark" data-assets-path="assets/" data-template="vertical-menu-template-semi-dark">
 
@@ -301,7 +286,7 @@
                         <div data-i18n="Form Layouts">Add shit</div>
                     </a>
                     <ul class="menu-sub">
-                        <li class="menu-item active ">
+                        <li class="menu-item ">
                             <a href="new_user" class="menu-link">
                                 <div >Add User</div>
                             </a>
@@ -311,7 +296,7 @@
                                 <div >Add Book</div>
                             </a>
                         </li>
-                        <li class="menu-item ">
+                        <li class="menu-item active">
                             <a href="new_author" class="menu-link">
                                 <div >Add Author</div>
                             </a>
@@ -825,37 +810,40 @@
                 <div class="container-xxl flex-grow-1 container-p-y">
 
 
-                    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Vertical Layouts</h4>
+                    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Admin/</span> Add Author</h4>
 
 
 
 
                     <!-- Multi Column with Form Separator -->
                     <div class="card mb-4">
-                        <h5 class="card-header">Multi Column with Form Separator</h5>
+                        <h5 class="card-header">Insert Author Data</h5>
                         <form class="card-body" action="/save_user" method="POST">
-                            <h6>1. Account Details</h6>
+                            <h6>1. Author Details</h6>
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label class="form-label" for="multicol-username">Username</label>
-                                    <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+                                    <label class="form-label" for="authorName">Author Name</label>
+                                    <input name="authorName" type="text" id="authorName" class="form-control" placeholder="john.doe" />
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="multicol-email">Email</label>
+                                    <label class="form-label" for="authorEmail">Email</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="email"type="text" id="multicol-email" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
-                                        <span class="input-group-text" id="multicol-email2">@example.com</span>
+                                        <input  name="authorEmail" type="text" id="authorEmail" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-password">Password</label>
-                                        <div class="input-group input-group-merge">
-                                            <input  name="password" type="password" id="multicol-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="multicol-password2" />
-                                            <span class="input-group-text cursor-pointer" id="multicol-password2"><i class="bx bx-hide"></i></span>
-                                        </div>
+                                    <label class="form-label" for="authorPhone">Phone NO</label>
+                                    <div class="input-group input-group-merge">
+                                        <input  name="authorPhone" type="number" id="authorPhone" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="authorBio">Author Bio</label>
+                                    <div class="input-group input-group-merge">
+                                        <textarea class="form-control" name="authorBio" id="authorBio"></textarea>
+                                    </div>
+                                </div>
+                                <input name="createdBy" value="" id="createdBy" type="hidden">
                                 <div class="col-md-6">
                                     <div class="form-password-toggle">
                                         <label class="form-label" for="multicol-confirm-password">user activation</label>
@@ -863,9 +851,9 @@
                                             <label class="switch">
                                                 <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
                                                 <span class="switch-toggle-slider">
-                <span class="switch-on"></span>
-                <span class="switch-off"></span>
-              </span>
+                                                    <span class="switch-on"></span>
+                                                    <span class="switch-off"></span>
+                                                </span>
                                                 <span class="switch-label">is active</span>
                                             </label>
                                         </div>
