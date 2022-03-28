@@ -34,6 +34,14 @@ class UsersController extends Controller{
     public function register(){
         $this->view("new_user");
     }
+    public function feedback(){
+        $this->view("feedback");
+    }
+
+    public function addBook(){
+        $this->view("new_book");
+    }
+
 
     public function delete(){
         

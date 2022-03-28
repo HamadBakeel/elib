@@ -28,6 +28,8 @@ Router::get('/books',function(){
 });
 
 Router::get('/new_user',[UsersController::class,'register']);
+Router::get('/new_book',[UsersController::class,'addBook']);
+Router::get('/feedback',[UsersController::class,'feedback']);
 
 Router::get('/remove_user',[UsersController::class,'delete']);
 
