@@ -302,7 +302,7 @@
                     </a>
                     <ul class="menu-sub">
                         <li class="menu-item active">
-                            <a href="form-layouts-vertical.html" class="menu-link">
+                            <a href="new_user" class="menu-link">
                                 <div >Add User</div>
                             </a>
                         </li>
