@@ -41,6 +41,9 @@ class UsersController extends Controller{
     public function addBook(){
         $this->view("new_book");
     }
+    public function addCategory(){
+        $this->view("new_category");
+    }
 
 
     public function delete(){
