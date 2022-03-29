@@ -150,200 +150,7 @@
 
 
 
-            <ul class="menu-inner py-1">
-                <!-- Dashboards -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Dashboards">Dashboards</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="dashboards-analytics.html" class="menu-link">
-                                <div data-i18n="Analytics">Analytics</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="dashboards-crm.html" class="menu-link">
-                                <div data-i18n="CRM">CRM</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="dashboards-ecommerce.html" class="menu-link">
-                                <div data-i18n="eCommerce">eCommerce</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Layouts -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-layout"></i>
-                        <div data-i18n="Layouts">Layouts</div>
-                    </a>
-
-                    <ul class="menu-sub">
-
-                        <li class="menu-item">
-                            <a href="layouts-collapsed-menu.html" class="menu-link">
-                                <div data-i18n="Collapsed menu">Collapsed menu</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-content-navbar.html" class="menu-link">
-                                <div data-i18n="Content navbar">Content navbar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-content-navbar-with-sidebar.html" class="menu-link">
-                                <div data-i18n="Content nav + Sidebar">Content nav + Sidebar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/horizontal-menu-template" class="menu-link" target="_blank">
-                                <div data-i18n="Horizontal">Horizontal</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-without-menu.html" class="menu-link">
-                                <div data-i18n="Without menu">Without menu</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-without-navbar.html" class="menu-link">
-                                <div data-i18n="Without navbar">Without navbar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-fluid.html" class="menu-link">
-                                <div data-i18n="Fluid">Fluid</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-container.html" class="menu-link">
-                                <div data-i18n="Container">Container</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-blank.html" class="menu-link">
-                                <div data-i18n="Blank">Blank</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <!-- Forms & Tables -->
-                <li class="menu-header small text-uppercase"><span class="menu-header-text">Insert Operations</span></li>
-                <!-- Forms -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-detail"></i>
-                        <div data-i18n="Form Elements">Form Elements</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="forms-basic-inputs.html" class="menu-link">
-                                <div data-i18n="Basic Inputs">Basic Inputs</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-input-groups.html" class="menu-link">
-                                <div data-i18n="Input groups">Input groups</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-custom-options.html" class="menu-link">
-                                <div data-i18n="Custom Options">Custom Options</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-editors.html" class="menu-link">
-                                <div data-i18n="Editors">Editors</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-file-upload.html" class="menu-link">
-                                <div data-i18n="File Upload">File Upload</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-pickers.html" class="menu-link">
-                                <div data-i18n="Pickers">Pickers</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-selects.html" class="menu-link">
-                                <div data-i18n="Select &amp; Tags">Select &amp; Tags</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-sliders.html" class="menu-link">
-                                <div data-i18n="Sliders">Sliders</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-switches.html" class="menu-link">
-                                <div data-i18n="Switches">Switches</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-extras.html" class="menu-link">
-                                <div data-i18n="Extras">Extras</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item active open">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-detail"></i>
-                        <div data-i18n="Form Layouts">Add shit</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item ">
-                            <a href="new_user" class="menu-link">
-                                <div >Add User</div>
-                            </a>
-                        </li>
-                        <li class="menu-item active">
-                            <a href="feedback" class="menu-link">
-                                <div >Add Book</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="form-layouts-sticky.html" class="menu-link">
-                                <div data-i18n="Sticky Actions">Sticky Actions</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-carousel"></i>
-                        <div data-i18n="Form Wizard">Form Wizard</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="form-wizard-numbered.html" class="menu-link">
-                                <div data-i18n="Numbered">Numbered</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="form-wizard-icons.html" class="menu-link">
-                                <div data-i18n="Icons">Icons</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="form-validation.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-list-check"></i>
-                        <div data-i18n="Form Validation">Form Validation</div>
-                    </a>
-                </li>
-                <!-- Tables -->
-
+            <?php include_once 'aside.php'?>
 
         </aside>
         <!-- / Menu -->
@@ -363,16 +170,6 @@
 
 
             <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
-
-
-
-
-
-
-
-
-
-
 
                 <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0   d-xl-none ">
                     <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
@@ -394,9 +191,6 @@
                         </div>
                     </div>
                     <!-- /Search -->
-
-
-
 
 
                     <ul class="navbar-nav flex-row align-items-center ms-auto">
@@ -434,8 +228,6 @@
                             </ul>
                         </li>
                         <!--/ Language -->
-
-
 
 
                         <!-- Style Switcher -->
@@ -831,48 +623,47 @@
 
                     <!-- Multi Column with Form Separator -->
                     <div class="card mb-4">
-                        <h5 class="card-header">Insert The Book Data</h5>
-                        <form class="card-body" action="/save_user" method="POST">
-                            <h6>1. Book Details</h6>
+                        <h5 class="card-header">إدخل بيانات الكتاب</h5>
+                        <form class="card-body" action="/save_book" method="POST">
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label class="form-label" for="bookTitle">Title</label>
-                                    <input name="bookTitle" type="text" id="bookTitle" class="form-control" placeholder="Book Title" />
+                                    <label class="form-label" for="bookTitle">عنوان الكتاب</label>
+                                    <input name="bookTitle" type="text" id="bookTitle"  class="form-control" placeholder="" />
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="bookImage">Book Image</label>
+                                    <label class="form-label" for="bookImage">صورة الكتاب</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="bookImage"type="file" id="bookImage" class="form-control"  aria-describedby="multicol-email2" />
-                                        <span class="input-group-text" id="multicol-email2">Choose A File</span>
+                                        <input  name="bookImage" type="file" id="bookImage" class="form-control"  aria-describedby="multicol-email2" />
+                                        <span class="input-group-text" id="multicol-email2">إختر ملف</span>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="bookPrice">Book Price</label>
+                                    <label class="form-label" for="bookPrice">السعر</label>
                                     <div class="input-group input-group-merge">
                                         <input  name="bookPrice" type="number" id="bookPrice" class="form-control"  aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="bookPages">Book Pages NO</label>
+                                    <label class="form-label" for="bookPages">عدد الصفحات</label>
                                     <div class="input-group input-group-merge">
                                         <input  name="bookPages" type="number" id="bookPages" class="form-control"  aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="bookQuantity">Quantity</label>
+                                    <label class="form-label" for="bookQuantity">الكمية</label>
                                     <div class="input-group input-group-merge">
                                         <input  name="bookQuantity" type="number" id="bookQuantity" class="form-control"  aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="bookDescription">Book Description</label>
+                                    <label class="form-label" for="bookDescription">وصف الكتاب</label>
                                     <div class="input-group input-group-merge">
                                         <textarea class="form-control" name="bookDescription" id="bookDescription"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group input-group-merge">
-                                        <label> Select Category
+                                        <label> إختر تصنيف
                                             <select class="form-control" id="bookCategory" name="bookCategory">
                                                 <option value="">Dummy Category</option>
                                                 <option value="">Dummy Category 2</option>
@@ -883,7 +674,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group input-group-merge">
-                                        <label> Select Format
+                                        <label>إختر صيغة
                                             <select class="form-control" id="bookFormat" name="bookFormat">
                                                 <option value="">Dummy Format</option>
                                                 <option value="">Dummy Format 2</option>
@@ -894,7 +685,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group input-group-merge">
-                                        <label> Select Author
+                                        <label> إختر مؤلف
                                             <select class="form-control" id="bookAuthor" name="bookAuthor">
                                                 <option value="">Dummy Author</option>
                                                 <option value="">Dummy Author 2</option>
@@ -905,7 +696,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group input-group-merge">
-                                        <label> Select Publisher
+                                        <label> إختر ناشر
                                             <select class="form-control" id="bookPublisher" name="bookPublisher">
                                                 <option value="">Dummy Publisher</option>
                                                 <option value="">Dummy Publisher 2</option>
@@ -918,7 +709,7 @@
 
                                 <div class="col-md-6">
                                     <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-confirm-password">user activation</label>
+                                        <label class="form-label" for="multicol-confirm-password">تفعيل الكتاب</label>
                                         <div class="input-group input-group-merge">
                                             <label class="switch">
                                                 <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
@@ -935,7 +726,7 @@
 
 
                             <div class="pt-4">
-                                <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+                                <button type="submit" class="btn btn-primary me-sm-3 me-1">إضافة</button>
                                 <button type="reset" class="btn btn-label-secondary">Cancel</button>
                             </div>
                         </form>

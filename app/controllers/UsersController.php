@@ -24,12 +24,13 @@ class UsersController extends Controller{
         $user->role_id=1;
         $user->save();
         if($user->save())
-        
-        $this->view('feedback',['success'=>'data inserted successful']);
-        else 
-        $this->view('feedback',['danger'=>'can not add data']);
+
+            $this->view('feedback',['success'=>'data inserted successful']);
+        else
+            $this->view('feedback',['danger'=>'can not add data']);
 
     }
+
 
     public function register(){
         $this->view("new_user");
@@ -38,9 +39,7 @@ class UsersController extends Controller{
         $this->view("feedback");
     }
 
-    public function addBook(){
-        $this->view("new_book");
-    }
+
 
 
     public function delete(){

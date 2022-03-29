@@ -12,14 +12,11 @@ class AppSystem{
     
     function __construct(array $dbConfig)
     {
-
-        
     	$this->database=new Database($dbConfig);
         self::$appSystem=$this;
         $this->request=new Request();
         $this->response=new Response();
         $this->router=new Router($this->request);
-
     } 
     
     public function start(){

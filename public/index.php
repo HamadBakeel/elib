@@ -3,6 +3,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use coding\app\controllers\AuthorsController;
 use coding\app\controllers\PublishersController;
+use coding\app\controllers\booksController;
 use coding\app\system\AppSystem;
 use coding\app\system\Router;
 use coding\app\controllers\UsersController;
@@ -27,8 +28,9 @@ Router::get('/books',function(){
   echo "books route path";
 });
 
+Router::get('/new_book',[booksController::class,'addBook']);
+Router::post('/save_book',[booksController::class,'saveBook']);
 Router::get('/new_user',[UsersController::class,'register']);
-Router::get('/new_book',[UsersController::class,'addBook']);
 Router::get('/feedback',[UsersController::class,'feedback']);
 
 Router::get('/remove_user',[UsersController::class,'delete']);
