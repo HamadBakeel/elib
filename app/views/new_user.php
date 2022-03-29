@@ -306,9 +306,10 @@
                                 <div >Add User</div>
                             </a>
                         </li>
+
                         <li class="menu-item">
-                            <a href="new_book" class="menu-link">
-                                <div >Add Book</div>
+                            <a href="new_offer" class="menu-link">
+                                <div >Add Offer</div>
                             </a>
                         </li>
                         <li class="menu-item">
