@@ -9,8 +9,11 @@ class UsersController extends Controller{
         $this->view('new_user');
     }
 
-        public function show(){
+    public function show(){
 
+    }
+    public function showUsers(){
+        $this->view("show_users");
     }
 
     public function saveUser(){
@@ -31,9 +34,9 @@ class UsersController extends Controller{
 
     }
 
-    public function register(){
-        $this->view("new_user");
-    }
+//    public function register(){
+//        $this->view("new_user");
+//    }
     public function feedback(){
         $this->view("feedback");
     }
