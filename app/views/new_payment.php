@@ -150,7 +150,7 @@
 
 
 
-          <?php include_once 'aside.php'?>
+            <?php include_once 'aside.php'?>
 
         </aside>
         <!-- / Menu -->
@@ -638,40 +638,30 @@
 
                     <!-- Multi Column with Form Separator -->
                     <div class="card mb-4">
-                        <h5 class="card-header">Multi Column with Form Separator</h5>
                         <form class="card-body" action="/save_user" method="POST">
-                            <h6>1. Account Details</h6>
+                            <h6>1. Payment Details</h6>
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label class="form-label" for="multicol-username">Username</label>
-                                    <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+                                    <label class="form-label" for="paymentName">إسم الطريقة</label>
+                                    <input name="paymentName" type="text" id="paymentName" class="form-control" placeholder="paypal" />
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="multicol-email">Email</label>
+                                    <label class="form-label" for="multicol-email">الصورة</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="email"type="text" id="multicol-email" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
-                                        <span class="input-group-text" id="multicol-email2">@example.com</span>
+                                        <input  name="paymenyImage" type="file" id="paymenyImage" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
+
                                 <div class="col-md-6">
                                     <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-password">Password</label>
-                                        <div class="input-group input-group-merge">
-                                            <input  name="password" type="password" id="multicol-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="multicol-password2" />
-                                            <span class="input-group-text cursor-pointer" id="multicol-password2"><i class="bx bx-hide"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-confirm-password">user activation</label>
+                                        <label class="form-label" for="multicol-confirm-password">تفعيل الطريق</label>
                                         <div class="input-group input-group-merge">
                                             <label class="switch">
                                                 <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
                                                 <span class="switch-toggle-slider">
-                <span class="switch-on"></span>
-                <span class="switch-off"></span>
-              </span>
+                                                    <span class="switch-on"></span>
+                                                    <span class="switch-off"></span>
+                                                </span>
                                                 <span class="switch-label">is active</span>
                                             </label>
                                         </div>
@@ -782,3 +772,4 @@
 
 <!-- form-layouts-vertical.html , Sat, 26 Mar 2022 16:53:13 GMT -->
 </html>
+<?php
