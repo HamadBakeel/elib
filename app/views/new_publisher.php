@@ -699,9 +699,9 @@
                                             <label class="switch">
                                                 <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
                                                 <span class="switch-toggle-slider">
-                <span class="switch-on"></span>
-                <span class="switch-off"></span>
-              </span>
+                                                    <span class="switch-on"></span>
+                                                    <span class="switch-off"></span>
+                                                </span>
                                                 <span class="switch-label">is active</span>
                                             </label>
                                         </div>

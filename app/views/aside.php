@@ -153,7 +153,7 @@
     <!-- Misc -->
     <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة  الناشرين</span></li>
     <li class="menu-item">
-        <a href=" new_publisher" class="menu-link">
+        <a href="new_publisher" class="menu-link">
             <div>اضافة ناشر </div>
         </a>
     </li>
