@@ -44,9 +44,16 @@ class CategoriesController extends Controller{
 
     }
 
-    public function remove(){
+    public function unActivate(){
         $id = $_POST['id'];
+        $is_active = $_POST['is_active'];
+        echo $is_active." before";
+        $is_active = 0 ? $is_active ==1 : $is_active =0;
+        echo $is_active." after";
+        echo "<br>";
         echo $id;
+        $category = new Category();
+        $category->update("", "", $id);
     }
 
     public static function uploadFile(array $imageFile): string

@@ -585,9 +585,16 @@
             <a href="/edit_category/<?php echo $category['id'];?>" class="btn btn-icon btn-outline-dribbble">
                 <i class="tf-icons bx bx-edit-alt me-1"></i>
               </a>
-              <form method="post" action="/remove_category">
-                  <input type="hidden" value="<?=$category['id']?>" name="id">
-                  <button type="submit" class="btn btn-icon btn-outline-dribbble">
+
+<!--                <a href="/remove_category/--><?//= $category['id'];?><!--" class="btn btn-icon btn-outline-dribbble">-->
+<!--                    <i class="tf-icons bx bx-trash me-1"></i>-->
+<!---->
+<!--                </a>-->
+
+                <form method="post" action="/remove_category" class="d-inline-block">
+                    <input type="hidden" value="<?= $category['id']?>" name="id">
+                    <input type="hidden" value="<?= $category['is_active']?>" name="is_active">
+                  <button type="submit" class="btn btn-icon btn-outline-dribbble ">
                       <i class="tf-icons bx bx-trash me-1"></i>
                   </button>
               </form>
