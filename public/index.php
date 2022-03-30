@@ -30,7 +30,6 @@ Router::get('/books',function(){
 
 Router::get('/new_user',[UsersController::class,'register']);
 Router::get('/new_book',[UsersController::class,'addBook']);
-Router::get('/new_category',[UsersController::class,'addCategory']);
 Router::get('/feedback',[UsersController::class,'feedback']);
 
 Router::get('/remove_user',[UsersController::class,'delete']);
@@ -48,6 +47,7 @@ Router::get('/edit_category/{id}',[CategoriesController::class,'edit']);
 Router::post('/remove_category',[CategoriesController::class,'unActivate']);
 Router::post('/save_category',[CategoriesController::class,'store']);
 Router::post('/update_category',[CategoriesController::class,'update']);
+Router::get('/new_category',[CategoriesController::class,'create']);
 
 $system->start();
 

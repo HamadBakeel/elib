@@ -34,7 +34,7 @@ class CategoriesController extends Controller{
         $category->is_active=$_POST['is_active'];
 
         $category->save();
-
+        header('Location: /categories');
     }
     function edit(){
 
@@ -47,13 +47,11 @@ class CategoriesController extends Controller{
     public function unActivate(){
         $id = $_POST['id'];
         $is_active = $_POST['is_active'];
-        echo $is_active." before";
-        $is_active = 0 ? $is_active ==1 : $is_active =0;
-        echo $is_active." after";
-        echo "<br>";
-        echo $id;
+        if($is_active == 0) $is_active =1;
+        else $is_active = 0;
         $category = new Category();
-        $category->update("", "", $id);
+        $category->update(array("is_active"), array ($is_active), "id = $id");
+        header("Location: /categories");
     }
 
     public static function uploadFile(array $imageFile): string

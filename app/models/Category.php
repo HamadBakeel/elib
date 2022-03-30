@@ -1,6 +1,7 @@
 <?php
-
 namespace coding\app\models;
+
+use coding\app\models\Model;
 
 use coding\app\system\AppSystem;
 
@@ -43,9 +44,23 @@ class Category extends Model{
         return $stmt->fetchAll();
     }
 
-    public function update()
-    {
-        
+    public function update($columns,$values,$condition){
+        $finalQuery = "";
+        if(count($columns) == count($values)){
+            $finalQuery = "UPDATE ".self::$tblName." SET ";
+            for ($i=0 ; $i<count($values) ; $i++) {
+                $column = $columns[$i];
+                $value = $values[$i];
+                if ($i == count($values) - 1) $pair = "$column = \"$value\"";
+                else $pair = "$column = $value , ";
+                $finalQuery .= $pair;
+            }
+            $finalQuery.=" WHERE ".$condition;
+//            echo $finalQuery;
+        }
+        $stmt=AppSystem::$appSystem->database->pdo->prepare($finalQuery);
+        $stmt->execute();
+//        return $stmt->fetchAll();
     }
 }
 ?>
