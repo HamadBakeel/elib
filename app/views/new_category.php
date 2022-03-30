@@ -135,207 +135,7 @@
             <div class="menu-inner-shadow"></div>
 
 
-
-            <ul class="menu-inner py-1">
-                <!-- Dashboards -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Dashboards">Dashboards</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="dashboards-analytics.html" class="menu-link">
-                                <div data-i18n="Analytics">Analytics</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="dashboards-crm.html" class="menu-link">
-                                <div data-i18n="CRM">CRM</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="dashboards-ecommerce.html" class="menu-link">
-                                <div data-i18n="eCommerce">eCommerce</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Layouts -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-layout"></i>
-                        <div data-i18n="Layouts">Layouts</div>
-                    </a>
-
-                    <ul class="menu-sub">
-
-                        <li class="menu-item">
-                            <a href="layouts-collapsed-menu.html" class="menu-link">
-                                <div data-i18n="Collapsed menu">Collapsed menu</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-content-navbar.html" class="menu-link">
-                                <div data-i18n="Content navbar">Content navbar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-content-navbar-with-sidebar.html" class="menu-link">
-                                <div data-i18n="Content nav + Sidebar">Content nav + Sidebar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/horizontal-menu-template" class="menu-link" target="_blank">
-                                <div data-i18n="Horizontal">Horizontal</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-without-menu.html" class="menu-link">
-                                <div data-i18n="Without menu">Without menu</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-without-navbar.html" class="menu-link">
-                                <div data-i18n="Without navbar">Without navbar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-fluid.html" class="menu-link">
-                                <div data-i18n="Fluid">Fluid</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-container.html" class="menu-link">
-                                <div data-i18n="Container">Container</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-blank.html" class="menu-link">
-                                <div data-i18n="Blank">Blank</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <!-- Forms & Tables -->
-                <li class="menu-header small text-uppercase"><span class="menu-header-text">Insert Operations</span></li>
-                <!-- Forms -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-detail"></i>
-                        <div data-i18n="Form Elements">Form Elements</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="forms-basic-inputs.html" class="menu-link">
-                                <div data-i18n="Basic Inputs">Basic Inputs</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-input-groups.html" class="menu-link">
-                                <div data-i18n="Input groups">Input groups</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-custom-options.html" class="menu-link">
-                                <div data-i18n="Custom Options">Custom Options</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-editors.html" class="menu-link">
-                                <div data-i18n="Editors">Editors</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-file-upload.html" class="menu-link">
-                                <div data-i18n="File Upload">File Upload</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-pickers.html" class="menu-link">
-                                <div data-i18n="Pickers">Pickers</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-selects.html" class="menu-link">
-                                <div data-i18n="Select &amp; Tags">Select &amp; Tags</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-sliders.html" class="menu-link">
-                                <div data-i18n="Sliders">Sliders</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-switches.html" class="menu-link">
-                                <div data-i18n="Switches">Switches</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-extras.html" class="menu-link">
-                                <div data-i18n="Extras">Extras</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item active open">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-detail"></i>
-                        <div data-i18n="Form Layouts">Add shit</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item ">
-                            <a href="new_user" class="menu-link">
-                                <div >Add User</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="new_book" class="menu-link">
-                                <div >Add Book</div>
-                            </a>
-                        </li>
-                        <li class="menu-item active">
-                        <li class="menu-item active">
-                            <a href="new_category" class="menu-link">
-                                <div >Add Category</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="form-layouts-sticky.html" class="menu-link">
-                                <div data-i18n="Sticky Actions">Sticky Actions</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-carousel"></i>
-                        <div data-i18n="Form Wizard">Form Wizard</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="form-wizard-numbered.html" class="menu-link">
-                                <div data-i18n="Numbered">Numbered</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="form-wizard-icons.html" class="menu-link">
-                                <div data-i18n="Icons">Icons</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="form-validation.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-list-check"></i>
-                        <div data-i18n="Form Validation">Form Validation</div>
-                    </a>
-                </li>
-                <!-- Tables -->
-
+        <?php include "aside.php"; ?>
 
         </aside>
         <!-- / Menu -->
@@ -823,24 +623,23 @@
 
                     <!-- Multi Column with Form Separator -->
                     <div class="card mb-4">
-                        <h5 class="card-header">Insert Category Data</h5>
-                        <form class="card-body" action="/save_user" method="POST">
-                            <h6>1. Category Details</h6>
+                        <h5 class="card-header">انشاء قسم جديد</h5>
+                        <form class="card-body" action="/save_category" method="POST" enctype="multipart/form-data">
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label class="form-label" for="categoryName">Category Name</label>
+                                    <label class="form-label" for="categoryName">إسم القسم</label>
                                     <input name="categoryName" type="text" id="categoryName" class="form-control" placeholder="john.doe" />
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="categoryImage">Category Image</label>
+                                    <label class="form-label" for="categoryImage">صورة القسم</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="categoryImage"type="file" id="categoryImage" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
+                                        <input  name="categoryImage" type="file" id="categoryImage" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <input name="createdBy" id="createdBy" value="" type="hidden">
                                 <div class="col-md-6">
                                     <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-confirm-password">user activation</label>
+                                        <label class="form-label" for="multicol-confirm-password">تفعيل القسم</label>
                                         <div class="input-group input-group-merge">
                                             <label class="switch">
                                                 <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
@@ -857,7 +656,7 @@
 
 
                             <div class="pt-4">
-                                <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+                                <button type="submit" class="btn btn-primary me-sm-3 me-1">إنشاء</button>
                                 <button type="reset" class="btn btn-label-secondary">Cancel</button>
                             </div>
                         </form>

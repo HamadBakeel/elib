@@ -2,6 +2,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use coding\app\controllers\AuthorsController;
+use coding\app\controllers\CategoriesController;
 use coding\app\controllers\PublishersController;
 use coding\app\system\AppSystem;
 use coding\app\system\Router;
@@ -39,5 +40,14 @@ Router::get('/new_user',[UsersController::class,'newUser']);
 
 Router::post('/save_user',[UsersController::class,'saveUser']);
 Router::get('/save_author',[AuthorsController::class,'createAuthor']);
+
+
+Router::get('/categories',[CategoriesController::class,'listAll']);
+Router::get('/add_category',[CategoriesController::class,'create']);
+Router::get('/edit_category/{id}',[CategoriesController::class,'edit']);
+Router::post('/remove_category',[CategoriesController::class,'remove']);
+Router::post('/save_category',[CategoriesController::class,'store']);
+Router::post('/update_category',[CategoriesController::class,'update']);
+
 $system->start();
 
