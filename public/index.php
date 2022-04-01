@@ -5,7 +5,6 @@ use coding\app\controllers\AuthorsController;
 use coding\app\controllers\PublishersController;
 use coding\app\system\AppSystem;
 use coding\app\system\Router;
-use coding\app\controllers\UsersController;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));//createImmutable(__DIR__);
@@ -20,24 +19,12 @@ $config=array(
 );
 $system=new AppSystem($config);
 
-Router::get('/users',[UsersController::class,'show']);
-
-
 Router::get('/books',function(){
   echo "books route path";
 });
 
-Router::get('/new_user',[UsersController::class,'register']);
-Router::get('/new_book',[UsersController::class,'addBook']);
-Router::get('/new_publisher',[UsersController::class,'addPublisher']);
-Router::get('/feedback',[UsersController::class,'feedback']);
-
-Router::get('/remove_user',[UsersController::class,'delete']);
-
-Router::post('/users',[UsersController::class,'show']);
-Router::get('/new_user',[UsersController::class,'newUser']);
-
-Router::post('/save_user',[UsersController::class,'saveUser']);
-Router::get('/save_author',[AuthorsController::class,'createAuthor']);
+Router::get('/publishers',[PublishersController::class,'listAll']);
+Router::get('/new_publisher',[PublishersController::class,'create']);
+Router::post('/save_publisher',[PublishersController::class,'store']);
 $system->start();
 

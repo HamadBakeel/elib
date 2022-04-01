@@ -642,7 +642,7 @@
 
                     <!-- Multi Column with Form Separator -->
                     <div class="card mb-4">
-                        <form class="card-body" action="/save_publisher" method="POST">
+                        <form class="card-body" action="/save_publisher" method="POST" enctype="multipart/form-data">
                             <h6>بيانات الناشر</h6>
                             <div class="row g-3">
                                 <div class="col-md-6">
@@ -658,13 +658,13 @@
                                 <div class="col-md-6">
                                     <label class="form-label" for="publisherAltPhone">رقم الهاتف البديل</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="publisherAltPhone" type="number" id="publisherAltPhone" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
+                                        <input  name="publisherAltPhone" type="number" id="publisherAltPhone" class="form-control" placeholder="" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label" for="publisherFax">الفاكس</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="publisherFax" type="number" id="publisherFax" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
+                                        <input  name="publisherFax" type="number" id="publisherFax" class="form-control" placeholder="" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -682,7 +682,7 @@
                                 <div class="col-md-6">
                                     <label class="form-label" for="publisherAddress">عنوان الناشر</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="publisherAddress"type="text" id="publisherAddress" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
+                                        <input  name="publisherAddress"type="text" id="publisherAddress" class="form-control" placeholder="" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -692,27 +692,12 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
-                                    <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-confirm-password">تفعيل الناشر</label>
-                                        <div class="input-group input-group-merge">
-                                            <label class="switch">
-                                                <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
-                                                <span class="switch-toggle-slider">
-                                                    <span class="switch-on"></span>
-                                                    <span class="switch-off"></span>
-                                                </span>
-                                                <span class="switch-label">is active</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
 
 
                             <div class="pt-4">
                                 <button type="submit" class="btn btn-primary me-sm-3 me-1">إضافة</button>
-                                <button type="reset" class="btn btn-label-secondary">Cancel</button>
+                                <button type="reset" class="btn btn-label-secondary">إلغاء</button>
                             </div>
                         </form>
                     </div>
@@ -728,27 +713,6 @@
 
 
 
-                <!-- Footer -->
-                <footer class="content-footer footer bg-footer-theme">
-                    <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-                        <div class="mb-2 mb-md-0">
-                            © <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            , made with ❤️ by <a href="https://themeselection.com/" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-                        </div>
-                        <div>
-
-                            <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                            <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                            <a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/" target="_blank" class="footer-link me-4">Documentation</a>
-                            <a href="https://themeselection.com/support/" target="_blank" class="footer-link d-none d-sm-inline-block">Support</a>
-
-                        </div>
-                    </div>
-                </footer>
-                <!-- / Footer -->
 
 
                 <div class="content-backdrop fade"></div>
@@ -770,10 +734,6 @@
 </div>
 <!-- / Layout wrapper -->
 
-
-<div class="buy-now">
-    <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/" target="_blank" class="btn btn-danger btn-buy-now">Buy Now</a>
-</div>
 
 
 

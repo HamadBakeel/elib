@@ -19,19 +19,24 @@ class Model{
             {
                 $values[]=is_string($property)?"'".$property."'":$property;
                 $columns[]=$key;}
-
-        }
+            }
         $values=implode(",",$values);
         $columns=implode(",",$columns);
        $sql_query="insert into ".self::$tblName." (".$columns." ) values (".$values.")";
    //echo $sql_query;
    
         $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
+        echo $sql_query;
         if($stmt->execute())
+            return true;
         return false;
-        return false;
-       // return true;
-     //echo $sql_query;
+    }
+
+    public function getAll(){
+        $sql_query="select * from ".self::$tblName."";
+        $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
+        $stmt->execute();
+        return $stmt->fetchAll();
     }
 }
 ?>

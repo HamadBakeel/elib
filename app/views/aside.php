@@ -41,7 +41,7 @@
       </svg>
 
     </span>
-    <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
+    <span class="app-brand-text demo menu-text fw-bolder ms-2">إدارة المكتبة</span>
   </a>
 
   <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
@@ -123,6 +123,18 @@
     <div>عرض الكتب</div>
   </a>
 </li>
+    <!-- publishers -->
+    <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الناشرون </span></li>
+    <li class="menu-item">
+        <a href="new_publisher" class="menu-link">
+            <div>اضافة ناشر</div>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="publishers" class="menu-link">
+            <div>عرض الناشرون</div>
+        </a>
+    </li>
    <!-- Misc -->
    <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة طرق الدفع</span></li>
    <li class="menu-item">
