@@ -37,8 +37,10 @@ class PublishersController extends Controller {
 
 
         $publisher->save();
+        header("location: publishers");
 
     }
+
 
     public static function uploadFile(array $imageFile): string
     {

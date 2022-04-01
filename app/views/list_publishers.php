@@ -565,6 +565,12 @@
                                         <th>اسم الناشر</th>
                                         <th>الصورة</th>
                                         <th>الحالة</th>
+                                        <th>الهاتف</th>
+                                        <th>الهاتف البدبل</th>
+                                        <th>الفاكس</th>
+                                        <th>البريد الالكتروني</th>
+                                        <th>العنوان</th>
+                                        <th>البلد</th>
 
                                         <th>العمليات</th>
                                     </tr>
@@ -572,23 +578,31 @@
                                     <tbody>
 
 
-                                    <?php foreach($params as $category){?>
+                                    <?php foreach($params as $publisher){?>
                                         <tr>
 
-                                            <td><?= $category['name'];?></td>
+                                            <td><?= $publisher['name'];?></td>
                                             <td>
-                                                <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $category['image'];?>">
+                                                <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $publisher['image'];?>">
                                             </td>
                                             <td>
-                                                <?php if($category['is_active']==1) {?>
+                                                <?php if($publisher['is_active']==1) {?>
                                                     <span class="badge bg-label-success me-1">مفعل</span>
                                                 <?php }
                                                 else {?>
                                                     <span class="badge bg-label-danger me-1">موقف</span>
                                                 <?php } ?>
                                             </td>
+                                            <td><?= $publisher['phone'];?></td>
+                                            <td><?= $publisher['alt_phone'];?></td>
+                                            <td><?= $publisher['fax'];?></td>
+                                            <td><?= $publisher['email'];?></td>
+                                            <td><?= $publisher['address'];?></td>
+                                            <td><?= $publisher['country'];?></td>
+
+
                                             <td>
-                                                <a href="/edit_category/<?php echo $category['id'];?>" class="btn btn-icon btn-outline-dribbble">
+                                                <a href="/edit_category/<?php echo $publisher['id'];?>" class="btn btn-icon btn-outline-dribbble">
                                                     <i class="tf-icons bx bx-edit-alt me-1"></i>
                                                 </a>
                                                 <button type="button" class="btn btn-icon btn-outline-dribbble">
@@ -610,7 +624,7 @@
 
 
 
-              
+
                 <div class="content-backdrop fade"></div>
             </div>
             <!-- Content wrapper -->
