@@ -31,13 +31,16 @@ Router::get('/new_user',[UsersController::class,'register']);
 Router::get('/new_book',[UsersController::class,'addBook']);
 Router::get('/new_author',[UsersController::class,'addAuthor']);
 Router::get('/feedback',[UsersController::class,'feedback']);
-
 Router::get('/remove_user',[UsersController::class,'delete']);
-
 Router::post('/users',[UsersController::class,'show']);
 Router::get('/new_user',[UsersController::class,'newUser']);
-
 Router::post('/save_user',[UsersController::class,'saveUser']);
-Router::get('/save_author',[AuthorsController::class,'createAuthor']);
+
+
+Router::get('/createAuthor',[AuthorsController::class,'create']);
+Router::get('/authors',[AuthorsController::class,'listAll']);
+Router::post('/save_author',[AuthorsController::class,'store']);
+
+
 $system->start();
 

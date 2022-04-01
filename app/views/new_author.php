@@ -122,214 +122,7 @@
   </g>
 </svg>
 
-</span>
-                    <span class="app-brand-text demo menu-text fw-bolder ms-2">elib</span>
-                </a>
-
-                <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
-                    <i class="bx bx-chevron-left bx-sm align-middle"></i>
-                </a>
-            </div>
-
-            <div class="menu-inner-shadow"></div>
-
-
-
-            <ul class="menu-inner py-1">
-                <!-- Dashboards -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Dashboards">Dashboards</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="dashboards-analytics.html" class="menu-link">
-                                <div data-i18n="Analytics">Analytics</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="dashboards-crm.html" class="menu-link">
-                                <div data-i18n="CRM">CRM</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="dashboards-ecommerce.html" class="menu-link">
-                                <div data-i18n="eCommerce">eCommerce</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Layouts -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-layout"></i>
-                        <div data-i18n="Layouts">Layouts</div>
-                    </a>
-
-                    <ul class="menu-sub">
-
-                        <li class="menu-item">
-                            <a href="layouts-collapsed-menu.html" class="menu-link">
-                                <div data-i18n="Collapsed menu">Collapsed menu</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-content-navbar.html" class="menu-link">
-                                <div data-i18n="Content navbar">Content navbar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-content-navbar-with-sidebar.html" class="menu-link">
-                                <div data-i18n="Content nav + Sidebar">Content nav + Sidebar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/horizontal-menu-template" class="menu-link" target="_blank">
-                                <div data-i18n="Horizontal">Horizontal</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-without-menu.html" class="menu-link">
-                                <div data-i18n="Without menu">Without menu</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-without-navbar.html" class="menu-link">
-                                <div data-i18n="Without navbar">Without navbar</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-fluid.html" class="menu-link">
-                                <div data-i18n="Fluid">Fluid</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-container.html" class="menu-link">
-                                <div data-i18n="Container">Container</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="layouts-blank.html" class="menu-link">
-                                <div data-i18n="Blank">Blank</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <!-- Forms & Tables -->
-                <li class="menu-header small text-uppercase"><span class="menu-header-text">Insert Operations</span></li>
-                <!-- Forms -->
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-detail"></i>
-                        <div data-i18n="Form Elements">Form Elements</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="forms-basic-inputs.html" class="menu-link">
-                                <div data-i18n="Basic Inputs">Basic Inputs</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-input-groups.html" class="menu-link">
-                                <div data-i18n="Input groups">Input groups</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-custom-options.html" class="menu-link">
-                                <div data-i18n="Custom Options">Custom Options</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-editors.html" class="menu-link">
-                                <div data-i18n="Editors">Editors</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-file-upload.html" class="menu-link">
-                                <div data-i18n="File Upload">File Upload</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-pickers.html" class="menu-link">
-                                <div data-i18n="Pickers">Pickers</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-selects.html" class="menu-link">
-                                <div data-i18n="Select &amp; Tags">Select &amp; Tags</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-sliders.html" class="menu-link">
-                                <div data-i18n="Sliders">Sliders</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-switches.html" class="menu-link">
-                                <div data-i18n="Switches">Switches</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="forms-extras.html" class="menu-link">
-                                <div data-i18n="Extras">Extras</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item active open">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-detail"></i>
-                        <div data-i18n="Form Layouts">Add shit</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item ">
-                            <a href="new_user" class="menu-link">
-                                <div >Add User</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="new_book" class="menu-link">
-                                <div >Add Book</div>
-                            </a>
-                        </li>
-                        <li class="menu-item active">
-                            <a href="new_author" class="menu-link">
-                                <div >Add Author</div>
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <i class="menu-icon tf-icons bx bx-carousel"></i>
-                        <div data-i18n="Form Wizard">Form Wizard</div>
-                    </a>
-                    <ul class="menu-sub">
-                        <li class="menu-item">
-                            <a href="form-wizard-numbered.html" class="menu-link">
-                                <div data-i18n="Numbered">Numbered</div>
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="form-wizard-icons.html" class="menu-link">
-                                <div data-i18n="Icons">Icons</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="form-validation.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-list-check"></i>
-                        <div data-i18n="Form Validation">Form Validation</div>
-                    </a>
-                </li>
-                <!-- Tables -->
-
+<?php include "aside.php"; ?>
 
         </aside>
         <!-- / Menu -->
@@ -339,26 +132,9 @@
         <!-- Layout container -->
         <div class="layout-page">
 
-
-
-
-
             <!-- Navbar -->
 
-
-
-
             <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
-
-
-
-
-
-
-
-
-
-
 
                 <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0   d-xl-none ">
                     <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
@@ -380,10 +156,6 @@
                         </div>
                     </div>
                     <!-- /Search -->
-
-
-
-
 
                     <ul class="navbar-nav flex-row align-items-center ms-auto">
 
@@ -463,41 +235,41 @@
                                     </div>
                                     <div class="row row-bordered overflow-visible g-0">
                                         <div class="dropdown-shortcuts-item col">
-                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
-                      <i class="bx bx-user fs-4"></i>
-                    </span>
+                                            <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                                              <i class="bx bx-user fs-4"></i>
+                                            </span>
                                             <a href="app-user-list.html" class="stretched-link">User App</a>
                                             <small class="text-muted mb-0">Manage Users</small>
                                         </div>
                                         <div class="dropdown-shortcuts-item col">
-                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
-                      <i class="bx bx-check-shield fs-4"></i>
-                    </span>
+                                            <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                                              <i class="bx bx-check-shield fs-4"></i>
+                                            </span>
                                             <a href="app-access-roles.html" class="stretched-link">Role Management</a>
                                             <small class="text-muted mb-0">Permission</small>
                                         </div>
                                     </div>
                                     <div class="row row-bordered overflow-visible g-0">
                                         <div class="dropdown-shortcuts-item col">
-                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
-                      <i class="bx bx-pie-chart-alt-2 fs-4"></i>
-                    </span>
+                                            <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                                              <i class="bx bx-pie-chart-alt-2 fs-4"></i>
+                                            </span>
                                             <a href="index-2.html" class="stretched-link">Dashboard</a>
                                             <small class="text-muted mb-0">User Profile</small>
                                         </div>
                                         <div class="dropdown-shortcuts-item col">
-                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
-                      <i class="bx bx-cog fs-4"></i>
-                    </span>
+                                            <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                                              <i class="bx bx-cog fs-4"></i>
+                                            </span>
                                             <a href="pages-account-settings-account.html" class="stretched-link">Setting</a>
                                             <small class="text-muted mb-0">Account Settings</small>
                                         </div>
                                     </div>
                                     <div class="row row-bordered overflow-visible g-0">
                                         <div class="dropdown-shortcuts-item col">
-                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
-                      <i class="bx bx-help-circle fs-4"></i>
-                    </span>
+                                            <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                                              <i class="bx bx-help-circle fs-4"></i>
+                                            </span>
                                             <a href="pages-help-center-landing.html" class="stretched-link">Help Center</a>
                                             <small class="text-muted mb-0">FAQs & Articles</small>
                                         </div>
@@ -786,7 +558,6 @@
                     </ul>
                 </div>
 
-
                 <!-- Search Small Screens -->
                 <div class="navbar-search-wrapper search-input-wrapper  d-none">
                     <input type="text" class="form-control search-input container-xxl border-0" placeholder="Search..." aria-label="Search...">
@@ -796,11 +567,7 @@
 
             </nav>
 
-
-
             <!-- / Navbar -->
-
-
 
             <!-- Content wrapper -->
             <div class="content-wrapper">
@@ -810,35 +577,29 @@
                 <div class="container-xxl flex-grow-1 container-p-y">
 
 
-                    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Admin/</span> Add Author</h4>
-
-
-
-
                     <!-- Multi Column with Form Separator -->
                     <div class="card mb-4">
-                        <h5 class="card-header">Insert Author Data</h5>
-                        <form class="card-body" action="/save_user" method="POST">
-                            <h6>1. Author Details</h6>
+                        <h5 class="card-header">أدخل بيانات المؤلف</h5>
+                        <form class="card-body" action="/save_author" method="POST">
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label class="form-label" for="authorName">Author Name</label>
+                                    <label class="form-label" for="authorName">الإسم</label>
                                     <input name="authorName" type="text" id="authorName" class="form-control" placeholder="john.doe" />
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="authorEmail">Email</label>
+                                    <label class="form-label" for="authorEmail">البريدالإلكتروني</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="authorEmail" type="text" id="authorEmail" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
+                                        <input  name="authorEmail" type="text" id="authorEmail" class="form-control" placeholder="" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="authorPhone">Phone NO</label>
+                                    <label class="form-label" for="authorPhone">رقم الهاتف</label>
                                     <div class="input-group input-group-merge">
-                                        <input  name="authorPhone" type="number" id="authorPhone" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
+                                        <input  name="authorPhone" type="number" id="authorPhone" class="form-control" placeholder="" aria-label="john.doe" aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" for="authorBio">Author Bio</label>
+                                    <label class="form-label" for="authorBio">السيرة الشخصية</label>
                                     <div class="input-group input-group-merge">
                                         <textarea class="form-control" name="authorBio" id="authorBio"></textarea>
                                     </div>
@@ -846,7 +607,6 @@
                                 <input name="createdBy" value="" id="createdBy" type="hidden">
                                 <div class="col-md-6">
                                     <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-confirm-password">user activation</label>
                                         <div class="input-group input-group-merge">
                                             <label class="switch">
                                                 <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
@@ -854,7 +614,7 @@
                                                     <span class="switch-on"></span>
                                                     <span class="switch-off"></span>
                                                 </span>
-                                                <span class="switch-label">is active</span>
+                                                <span class="switch-label">تفعيل المؤلف</span>
                                             </label>
                                         </div>
                                     </div>
@@ -863,48 +623,14 @@
 
 
                             <div class="pt-4">
-                                <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
-                                <button type="reset" class="btn btn-label-secondary">Cancel</button>
+                                <button type="submit" class="btn btn-primary me-sm-3 me-1">إضافة</button>
+                                <button type="reset" class="btn btn-label-secondary">إلغاء</button>
                             </div>
                         </form>
                     </div>
 
-
-
-
-
-
                 </div>
                 <!-- / Content -->
-
-
-
-
-                <!-- Footer -->
-                <footer class="content-footer footer bg-footer-theme">
-                    <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-                        <div class="mb-2 mb-md-0">
-                            © <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            , made with ❤️ by <a href="https://themeselection.com/" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-                        </div>
-                        <div>
-
-                            <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                            <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                            <a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/" target="_blank" class="footer-link me-4">Documentation</a>
-
-
-                            <a href="https://themeselection.com/support/" target="_blank" class="footer-link d-none d-sm-inline-block">Support</a>
-
-                        </div>
-                    </div>
-                </footer>
-                <!-- / Footer -->
-
-
                 <div class="content-backdrop fade"></div>
             </div>
             <!-- Content wrapper -->
@@ -925,9 +651,6 @@
 <!-- / Layout wrapper -->
 
 
-<div class="buy-now">
-    <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/" target="_blank" class="btn btn-danger btn-buy-now">Buy Now</a>
-</div>
 
 
 
