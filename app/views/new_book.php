@@ -615,16 +615,10 @@
 
                 <div class="container-xxl flex-grow-1 container-p-y">
 
-
-                    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Admin/</span> Add Book</h4>
-
-
-
-
                     <!-- Multi Column with Form Separator -->
                     <div class="card mb-4">
                         <h5 class="card-header">إدخل بيانات الكتاب</h5>
-                        <form class="card-body" action="/save_book" method="POST">
+                        <form class="card-body" action="/save_book" method="POST" enctype="multipart/form-data">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <label class="form-label" for="bookTitle">عنوان الكتاب</label>
@@ -637,97 +631,86 @@
                                         <span class="input-group-text" id="multicol-email2">إختر ملف</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <label class="form-label" for="bookPrice">السعر</label>
                                     <div class="input-group input-group-merge">
                                         <input  name="bookPrice" type="number" id="bookPrice" class="form-control"  aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <label class="form-label" for="bookPages">عدد الصفحات</label>
                                     <div class="input-group input-group-merge">
                                         <input  name="bookPages" type="number" id="bookPages" class="form-control"  aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <label class="form-label" for="bookQuantity">الكمية</label>
                                     <div class="input-group input-group-merge">
                                         <input  name="bookQuantity" type="number" id="bookQuantity" class="form-control"  aria-describedby="multicol-email2" />
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <label class="form-label" for="bookDescription">وصف الكتاب</label>
                                     <div class="input-group input-group-merge">
                                         <textarea class="form-control" name="bookDescription" id="bookDescription"></textarea>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="input-group input-group-merge">
                                         <label> إختر تصنيف
                                             <select class="form-control" id="bookCategory" name="bookCategory">
-                                                <option value="">Dummy Category</option>
-                                                <option value="">Dummy Category 2</option>
-                                                <option value="">Dummy Category 3</option>
+                                                <?php foreach ($params['categories'] as $category): ?>
+                                                    <option value="<?= $category['id']?>"><?= $category['name']?></option>
+                                                <?php endforeach;?>
+<!--                                                <option value="">Dummy Category 2</option>-->
+<!--                                                <option value="">Dummy Category 3</option>-->
                                             </select>
                                         </label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="input-group input-group-merge">
                                         <label>إختر صيغة
                                             <select class="form-control" id="bookFormat" name="bookFormat">
-                                                <option value="">Dummy Format</option>
-                                                <option value="">Dummy Format 2</option>
-                                                <option value="">Dummy Format 3</option>
+                                                <option value="">Paper</option>
+                                                <option value="">PDF</option>
+                                                <option value="">EPUB</option>
+                                                <option value="">Kindle</option>
                                             </select>
                                         </label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="input-group input-group-merge">
                                         <label> إختر مؤلف
                                             <select class="form-control" id="bookAuthor" name="bookAuthor">
-                                                <option value="">Dummy Author</option>
-                                                <option value="">Dummy Author 2</option>
-                                                <option value="">Dummy Author 3</option>
+                                                <?php foreach ($params['authors'] as $author): ?>
+                                                    <option value="<?= $author['id']?>"><?= $author['name']?></option>
+                                                <?php endforeach;?>
                                             </select>
                                         </label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="input-group input-group-merge">
                                         <label> إختر ناشر
                                             <select class="form-control" id="bookPublisher" name="bookPublisher">
-                                                <option value="">Dummy Publisher</option>
-                                                <option value="">Dummy Publisher 2</option>
-                                                <option value="">Dummy Publisher 3</option>
+                                                <?php foreach ($params['publishers'] as $publisher): ?>
+                                                    <option value="<?= $publisher['id']?>"><?= $publisher['name']?></option>
+                                                <?php endforeach;?>
                                             </select>
                                         </label>
                                     </div>
                                 </div>
 
 
-                                <div class="col-md-6">
-                                    <div class="form-password-toggle">
-                                        <label class="form-label" for="multicol-confirm-password">تفعيل الكتاب</label>
-                                        <div class="input-group input-group-merge">
-                                            <label class="switch">
-                                                <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
-                                                <span class="switch-toggle-slider">
-                                                    <span class="switch-on"></span>
-                                                    <span class="switch-off"></span>
-                                                </span>
-                                                <span class="switch-label">is active</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
 
 
                             <div class="pt-4">
                                 <button type="submit" class="btn btn-primary me-sm-3 me-1">إضافة</button>
-                                <button type="reset" class="btn btn-label-secondary">Cancel</button>
+                                <button type="reset" class="btn btn-label-secondary">إلغاء</button>
                             </div>
                         </form>
                     </div>
@@ -742,30 +725,6 @@
 
 
 
-
-                <!-- Footer -->
-                <footer class="content-footer footer bg-footer-theme">
-                    <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-                        <div class="mb-2 mb-md-0">
-                            © <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            , made with ❤️ by <a href="https://themeselection.com/" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-                        </div>
-                        <div>
-
-                            <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                            <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                            <a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/" target="_blank" class="footer-link me-4">Documentation</a>
-
-
-                            <a href="https://themeselection.com/support/" target="_blank" class="footer-link d-none d-sm-inline-block">Support</a>
-
-                        </div>
-                    </div>
-                </footer>
-                <!-- / Footer -->
 
 
                 <div class="content-backdrop fade"></div>
@@ -787,10 +746,6 @@
 </div>
 <!-- / Layout wrapper -->
 
-
-<div class="buy-now">
-    <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/" target="_blank" class="btn btn-danger btn-buy-now">Buy Now</a>
-</div>
 
 
 
