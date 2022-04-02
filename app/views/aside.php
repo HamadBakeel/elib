@@ -41,7 +41,7 @@
       </svg>
 
     </span>
-    <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
+    <span class="app-brand-text demo menu-text fw-bolder ms-2">إدارة المكتبة</span>
   </a>
 
   <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
@@ -76,6 +76,10 @@
  
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> add_book
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الاقسام والتصنيفات</span></li>
   <li class="menu-item">
@@ -114,7 +118,7 @@
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الكتب </span></li>
   <li class="menu-item">
-  <a href="#" class="menu-link">
+  <a href="new_book" class="menu-link">
     <div>اضافة كتاب</div>
   </a>
 </li>

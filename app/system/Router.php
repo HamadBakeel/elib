@@ -16,14 +16,10 @@ class Router{
 
     public static function get($url,$callback){
         self::$routes['GET'][$url]=$callback;
-
-
-
     }
+
     public static function post($url,$callback){
         self::$routes['POST'][$url]=$callback;
-
-
     }
     public function put(){
 
@@ -33,14 +29,10 @@ class Router{
     }
 
     public  function executeRoute(){
-     
-       
         $route=$this->request->getRoute();
         $method=$this->request->getRequestMethod();
         $callback=self::$routes[$method][$route];
 
-        
-        
             if(isset($callback))
             {
                 if(is_array($callback))
@@ -53,15 +45,10 @@ class Router{
             else {
                 echo "page not found";
             }
-
-
-
     }
 
     public function view($v,$params){
-
         require_once __DIR__."/../views/$v.php";
-
     }
  
 

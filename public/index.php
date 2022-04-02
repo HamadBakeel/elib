@@ -1,11 +1,9 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use coding\app\controllers\AuthorsController;
-use coding\app\controllers\PublishersController;
+use coding\app\controllers\booksController;
 use coding\app\system\AppSystem;
 use coding\app\system\Router;
-use coding\app\controllers\UsersController;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));//createImmutable(__DIR__);
@@ -16,7 +14,6 @@ $config=array(
   'dbname'=>$_ENV['DB_NAME'],
   'dbpass'=>$_ENV['DB_PASSWORD'],
   'username'=>$_ENV['DB_USERNAME']
-
 );
 $system=new AppSystem($config);
 
@@ -27,26 +24,9 @@ Router::get('/books',function(){
   echo "books route path";
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Router::get('/new_book',[booksController::class,'create']);
+Router::get('/books',[booksController::class,'listAll']);
+Router::post('/save_book',[booksController::class,'store']);
 
 Router::get('/new_user',[UsersController::class,'newUser']);
 Router::get('/show_users',[UsersController::class,'showUsers']);

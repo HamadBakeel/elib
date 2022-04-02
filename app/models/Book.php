@@ -1,21 +1,22 @@
 <?php
+
 namespace coding\app\models;
 
+use coding\app\models\Model;
 
+class Book extends Model{
 
-class User extends Model{
-   
 
     function __construct()
     {
-        parent::$tblName="users";
-        
+        parent::$tblName="books";
     }
 
     function __set($name, $value)
     {
         $this->$name=$value;
-        
     }
+
+
 
 }
