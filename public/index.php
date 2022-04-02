@@ -28,8 +28,11 @@ Router::get('/books',function(){
 Router::get('/new_book',[booksController::class,'create']);
 Router::get('/books',[booksController::class,'listAll']);
 Router::post('/save_book',[booksController::class,'store']);
+
 Router::get('/home',[HomeController::class,'home']);
-Router::get('/details',[HomeController::class,'details']);
+Router::get('/',[HomeController::class,'home']);
+//Router::get('/details',[HomeController::class,'details']);
+Router::post('/details',[HomeController::class,'details']);
 Router::get('/cart',[HomeController::class,'cart']);
 Router::get('/checkout',[HomeController::class,'checkout']);
 Router::get('/categories',[HomeController::class,'categories']);

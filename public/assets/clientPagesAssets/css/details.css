@@ -35,6 +35,9 @@
   .show-links-button {
     display: inline-block;
   }
+  .hide-links{
+    height: 0;
+  }
 }
 /* ============= details page styling ============= */
 .container {
@@ -168,6 +171,8 @@
 /* ========= book info section =========== */
 .book-info a {
   color: rgb(0, 153, 255);
+  margin-top: 5px;
+  margin-bottom: 8px;
 }
 
 .price {

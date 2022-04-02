@@ -340,9 +340,24 @@ main {
 .current-offers .offer:hover {
   transform: scale(1.03);
 }
-.current-offers .offer > img {
+.current-offers .offer  form {
   width: 220px;
   height: 240px;
+  margin-top: 0;
+  position: relative;
+}
+.current-offers .offer  form  img {
+  max-width: 100%;
+  min-height: 100%;
+}
+.current-offers .offer form button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
   cursor: pointer;
 }
 .current-offers .offer .type {

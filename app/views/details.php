@@ -1,3 +1,6 @@
+<?php
+use \coding\app\models\Model;
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,9 +28,9 @@
       <section class="container">
         <div class="book-image">
           <div class="big-img">
-            <img src="assets/clientPagesAssets/imgs/books/karmaDiagnosis.jpg" alt="" />
+            <img src="images/<?= $params->image?>" alt="" />
           </div>
-          <div class="small-imgs">
+          <!--<div class="small-imgs">
             <div class="img-container">
               <img src="assets/clientPagesAssets/imgs/books/beYou.jpg" alt="" />
             </div>
@@ -44,7 +47,8 @@
               <img src="assets/clientPagesAssets/imgs/books/yourNewSelf.jpg" alt="" />
             </div>
           </div>
-          <div class="img-slider-container hide">
+          -->
+         <!-- <div class="img-slider-container hide">
             <div class="img-container img-view">
               <img src="assets/clientPagesAssets/imgs/books/karmaDiagnosis.jpg" alt="" />
 
@@ -59,13 +63,13 @@
               </div>
               <img src="assets/clientPagesAssets/imgs/svg/cancel.svg" alt="" id="exit" />
             </div>
-          </div>
+          </div>-->
         </div>
         <div class="book-info">
-          <h2 class="title">كن أنت (كتاب الكتروني)</h2>
+          <h2 class="title"> <?= $params->title?>(<?= $params->format?>)</h2>
           <a href="" class="show-more">عرض المزيد</a>
           <div class="price">
-            <p>17.99</p>
+            <p><?= $params->price?></p>
             <p>ر.س</p>
           </div>
           <p class="sell-unit">ُ وحدة البيع :Each</p>
@@ -143,9 +147,10 @@
         </div>
       </section>
       <p class="about">
-        كتاب يتحدث عن الكثير من الأشياء المفيدة الخ الخ الخ الخ الخ الخ الخ الخ
-        الخ الخ الخ الخ الخلخ الخ الخ الخ الخ الخ الخ الخ الخ الخلخ الخ الخ الخ
-        الخ الخ الخ الخ الخ الخلخ الخ الخ الخ الخ الخ الخ الخ الخ الخ
+          <?= $params->description?>
+<!--        كتاب يتحدث عن الكثير من الأشياء المفيدة الخ الخ الخ الخ الخ الخ الخ الخ-->
+<!--        الخ الخ الخ الخ الخلخ الخ الخ الخ الخ الخ الخ الخ الخ الخلخ الخ الخ الخ-->
+<!--        الخ الخ الخ الخ الخ الخلخ الخ الخ الخ الخ الخ الخ الخ الخ الخ-->
       </p>
       <section class="specs">
         <h2>المواصفات</h2>
@@ -160,7 +165,12 @@
           </li>
           <li>
             <p class="spec">المؤلف</p>
-            <p class="value">مؤلف ما</p>
+            <p class="value">
+                <?php
+//                    $name = Model::getItem('publishers','name',$params->publisher_id);
+//                    echo $name['name'];
+                ?>
+            </p>
           </li>
           <li>
             <p class="spec">الناشر</p>

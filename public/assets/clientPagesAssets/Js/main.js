@@ -92,11 +92,11 @@ languageSwitch.addEventListener("click", function (e) {
 
 // ============ show details =============
 const offers = document.querySelectorAll(".current-offers .offer > img");
-offers.forEach(function (offer) {
-  offer.addEventListener("click", function () {
-    location.href = "details";
-  });
-});
+// offers.forEach(function (offer) {
+//   offer.addEventListener("click", function () {
+//     location.href = "details";
+//   });
+// });
 
 // =========== redirect to home.php ==============
 const mainPage = document.querySelector(".index");

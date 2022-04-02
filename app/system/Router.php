@@ -32,7 +32,11 @@ class Router{
         $route=$this->request->getRoute();
         $method=$this->request->getRequestMethod();
         $callback=self::$routes[$method][$route];
-
+//        echo $route;
+//        $result = preg_match_all('/{(.*?)}/',$route,$params);
+//        echo "<pre>";
+//        print_r($params);
+//        exit();
             if(isset($callback))
             {
                 if(is_array($callback))

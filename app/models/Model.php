@@ -41,5 +41,20 @@ class Model{
         $stmt->execute();
         return $stmt->fetch();
     }
+    public static function getItemAsObj($table,$item,$id)
+    {
+        $sql_query="SELECT $item FROM ".$table." WHERE id = $id";
+        $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
+        $stmt->execute();
+        return $stmt->fetchObject();
+    }
+
+    public static function getAllItems($table,$id):array
+    {
+        $sql_query="SELECT *  FROM ".$table." WHERE category_id = $id";
+        $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
 }
 ?>
