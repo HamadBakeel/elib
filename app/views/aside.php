@@ -76,10 +76,6 @@
  
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> add_book
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الاقسام والتصنيفات</span></li>
   <li class="menu-item">
