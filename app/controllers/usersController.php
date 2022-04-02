@@ -9,9 +9,7 @@ class UsersController extends Controller{
         $this->view('new_user');
     }
 
-    public function show(){
 
-    }
     public function showUsers(){
         $this->view("show_users");
     }

@@ -27,17 +27,30 @@ Router::get('/books',function(){
   echo "books route path";
 });
 
-//Router::get('/new_user',[UsersController::class,'register']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Router::get('/new_user',[UsersController::class,'newUser']);
 Router::get('/show_users',[UsersController::class,'showUsers']);
-Router::get('/new_book',[UsersController::class,'addBook']);
 Router::get('/feedback',[UsersController::class,'feedback']);
-
-Router::get('/remove_user',[UsersController::class,'delete']);
-
-Router::post('/users',[UsersController::class,'show']);
-
 Router::post('/save_user',[UsersController::class,'saveUser']);
-Router::get('/save_author',[AuthorsController::class,'createAuthor']);
 $system->start();
 
