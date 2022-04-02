@@ -23,9 +23,7 @@ class BooksController extends Controller
         $this->view('list_books',$allBooks);
     }
 
-    public function getName($table,$id){
 
-    }
 
     function store(){
 //        echo "<pre>";
