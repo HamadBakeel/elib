@@ -34,9 +34,12 @@ class Model{
         return $stmt->fetchAll();
     }
 
-    public function getItem($table,)
+    public static function getItem($table,$item,$id)
     {
-
+        $sql_query="SELECT $item FROM ".$table." WHERE id = $id";
+        $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
+        $stmt->execute();
+        return $stmt->fetch();
     }
 }
 ?>
