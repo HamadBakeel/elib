@@ -556,25 +556,26 @@
 
                 <div class="container-xxl flex-grow-1 container-p-y">
 
-
-                    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Vertical Layouts</h4>
-
-
-
-
                     <!-- Multi Column with Form Separator -->
                     <!-- Bordered Table -->
                     <div class="card">
-                        <h5 class="card-header">Bordered Table</h5>
+                        <h5 class="card-header">جميع الكتب</h5>
                         <div class="card-body">
                             <div class="table-responsive text-nowrap">
                                 <table class="table table-bordered">
                                     <thead>
                                     <tr>
-                                        <th>اسم القسم</th>
+                                        <th>اسم الكتاب</th>
                                         <th>الصورة</th>
+                                        <th>السعر</th>
+                                        <th>عدد الصفحات</th>
+                                        <th>الفئة</th>
+                                        <th>الناشر</th>
+                                        <th>المؤلف</th>
+                                        <th>الكمية</th>
+                                        <th>الصيغة</th>
+                                        <th>الوصف</th>
                                         <th>الحالة</th>
-
                                         <th>العمليات</th>
                                     </tr>
                                     </thead>
@@ -588,6 +589,31 @@
                                             <td>
                                                 <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $book['image'];?>">
                                             </td>
+                                            <td><?= $book['price'] ?></td>
+                                            <td><?= $book['pages_number'] ?></td>
+                                            <td>
+                                                <?php
+                                                $name = \coding\app\models\Book::getItem('categories','name',$book['category_id']  );
+                                                    echo $name['name'];
+                                                ?>
+                                            </td>
+                                            <td><?php
+
+                                                $name = \coding\app\models\Book::getItem('publishers', 'name', $book['publisher_id']);
+                                                echo $name['name'];
+
+                                                ?>
+                                            </td>
+                                            <td><?php
+
+                                                $name = \coding\app\models\Book::getItem('authors', 'name', $book['author_id']);
+                                                echo $name['name'];
+
+                                                ?>
+                                            </td>
+                                            <td><?= $book['quantity'] ?></td>
+                                            <td><?= $book['format'] ?></td>
+                                            <td><?= $book['description'] ?></td>
                                             <td>
                                                 <?php if($book['is_active']==1) {?>
                                                     <span class="badge bg-label-success me-1">مفعل</span>

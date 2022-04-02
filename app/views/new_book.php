@@ -672,10 +672,10 @@
                                     <div class="input-group input-group-merge">
                                         <label>إختر صيغة
                                             <select class="form-control" id="bookFormat" name="bookFormat">
-                                                <option value="">Paper</option>
-                                                <option value="">PDF</option>
-                                                <option value="">EPUB</option>
-                                                <option value="">Kindle</option>
+                                                <option value="Paper">Paper</option>
+                                                <option value="PDF">PDF</option>
+                                                <option value="EPUB">EPUB</option>
+                                                <option value="Kindle">Kindle</option>
                                             </select>
                                         </label>
                                     </div>

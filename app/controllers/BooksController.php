@@ -21,15 +21,17 @@ class BooksController extends Controller
     public function listAll(){
         $allBooks = Book::getAll("books");
         $this->view('list_books',$allBooks);
+    }
+
+    public function getName($table,$id){
 
     }
 
-
     function store(){
-        echo "<pre>";
-        print_r($_POST);
-        echo "<pre>";
-        print_r($_FILES);
+//        echo "<pre>";
+//        print_r($_POST);
+//        echo "<pre>";
+//        print_r($_FILES);
         $book=new Book();
 
         $imageName = $this->uploadFile($_FILES['bookImage']);
