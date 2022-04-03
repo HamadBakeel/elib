@@ -37,7 +37,7 @@ class HomeController extends Controller
 
     public static function displayBook(array $book):string
     {
-        echo "<pre>";
+//        echo "<pre>";
 //        print_r($book);
         return sprintf('
             <div class="offer">

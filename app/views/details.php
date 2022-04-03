@@ -47,8 +47,8 @@ use \coding\app\models\Model;
               <img src="assets/clientPagesAssets/imgs/books/yourNewSelf.jpg" alt="" />
             </div>
           </div>
-          -->
-         <!-- <div class="img-slider-container hide">
+
+         <div class="img-slider-container hide">
             <div class="img-container img-view">
               <img src="assets/clientPagesAssets/imgs/books/karmaDiagnosis.jpg" alt="" />
 
@@ -69,10 +69,10 @@ use \coding\app\models\Model;
           <h2 class="title"> <?= $params->title?>(<?= $params->format?>)</h2>
           <a href="" class="show-more">عرض المزيد</a>
           <div class="price">
-            <p><?= $params->price?></p>
+            <p><?= $params->price ?? "9"?></p>
             <p>ر.س</p>
           </div>
-          <p class="sell-unit">ُ وحدة البيع :Each</p>
+          <p class="sell-unit">ُ وحدة البيع :Each  </p>
           <p><a href="" class="reviews">(المراجعات) 5 نجوم</a></p>
           <p class="type-number">رقم الصنف JBB23Bdsf رقم المنتج 4</p>
           <div class="available-forms">
@@ -148,9 +148,6 @@ use \coding\app\models\Model;
       </section>
       <p class="about">
           <?= $params->description?>
-<!--        كتاب يتحدث عن الكثير من الأشياء المفيدة الخ الخ الخ الخ الخ الخ الخ الخ-->
-<!--        الخ الخ الخ الخ الخلخ الخ الخ الخ الخ الخ الخ الخ الخ الخلخ الخ الخ الخ-->
-<!--        الخ الخ الخ الخ الخ الخلخ الخ الخ الخ الخ الخ الخ الخ الخ الخ-->
       </p>
       <section class="specs">
         <h2>المواصفات</h2>
